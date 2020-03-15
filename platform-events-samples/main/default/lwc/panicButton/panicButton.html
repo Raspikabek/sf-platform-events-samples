@@ -1,0 +1,34 @@
+<template>
+    <lightning-layout
+        vertical-align="center"
+        horizontal-align="center"
+        multiple-rows="true"
+    >
+        <lightning-layout-item padding="around-medium">
+            <lightning-button
+                label="Panic Button!"
+                icon-name="utility:success"
+                onclick={handlerSuccessButton}
+                variant="success"
+            ></lightning-button>
+        </lightning-layout-item>
+
+        <lightning-layout-item padding="around-medium">
+            <lightning-button
+                label="Panic Button!"
+                icon-name="utility:warning"
+                onclick={handleWarningButton}
+                variant="brand"
+            ></lightning-button>
+        </lightning-layout-item>
+
+        <lightning-layout-item padding="around-medium">
+            <lightning-button
+                label="Panic Button!"
+                icon-name="utility:error"
+                onclick={handlerErrorButton}
+                variant="destructive"
+            ></lightning-button>
+        </lightning-layout-item>
+    </lightning-layout>
+</template>
