@@ -37,3 +37,4 @@ sfdx force:user:permset:assign -n PlatformEventSamples
 -   Any post in Chatter with the topic `#BearAlert` will fire the platform event (you will see the message stored in the Notifications Console app in the utils bar)
 -   Press any of the panic buttons (this is a LWC calling an Apex Controller)
 -   Any Platform Event will create a sample Account with the Platform Event message content as Name
+-   You can use the AnonymousApex script in `scripts/apex/sampleNotification.apex`, running that script from VsCode or the Developer Console.
